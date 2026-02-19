@@ -105,8 +105,13 @@
 </div>
 
 <footer>
-    © 2026 Justin Kihundu — Créateur de Landing Pages Professionnelles
+    © <span id="year"></span> Justin Kihundu — Créateur de Landing Pages Professionnelles
 </footer>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
 
 </body>
 </html>
